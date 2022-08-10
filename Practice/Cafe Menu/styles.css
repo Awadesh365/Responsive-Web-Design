@@ -1,0 +1,12 @@
+ h1,h2,p {
+            text-align: center;
+
+        }
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+.menu{
+    background-color: burlywood;
+    width: 80%;
+    margin: auto;
+}
