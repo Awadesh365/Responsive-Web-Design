@@ -7,7 +7,9 @@
 body{
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 font-family: sans-serif;
+padding: 20px;
 }
+
 .menu{
     background-color: burlywood;
     padding: 20px;
@@ -25,4 +27,23 @@ font-family: sans-serif;
 }
 .item p{
     display: inline-block;
+}
+.established{
+    font-style: italic;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+hr{
+    height: 3px;
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
+}
+.item{
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
