@@ -9,7 +9,6 @@ body{
 font-family: sans-serif;
 padding: 20px;
 }
-
 .menu{
     background-color: burlywood;
     padding: 20px;
@@ -27,6 +26,9 @@ padding: 20px;
 }
 .item p{
     display: inline-block;
+    margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 18px;
 }
 .established{
     font-style: italic;
@@ -43,7 +45,13 @@ hr{
     border-color: brown;
     height: 2px;
 }
-.item{
-   margin-top: 5px;
-   margin-bottom: 5px;
+.bottom-line{
+    margin-top: 25px;
+}
+/* FOOTER */
+footer{
+    font-size: 14px;
+}
+a{
+    color: black;
 }
