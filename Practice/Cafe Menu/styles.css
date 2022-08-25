@@ -1,57 +1,95 @@
- h1,h2,p {
-            text-align: center;
-        }
-        h1,h2{
-            font-family: Impact,serif;
-        }
-body{
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-font-family: sans-serif;
-padding: 20px;
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
 }
-.menu{
-    background-color: burlywood;
-    padding: 20px;
-    width: 80%;
-    margin: auto;
-    max-width: 500px;
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
-.flavor,.dessert{
-    text-align: left;
-    width: 75%;
+
+h2 {
+  font-size: 30px;
 }
-.price{
-    text-align: right;
-    width: 25%;
+
+.established {
+  font-style: italic;
 }
-.item p{
-    display: inline-block;
-    margin-top: 5px;
-   margin-bottom: 5px;
-   font-size: 18px;
+
+h1, h2, p {
+  text-align: center;
 }
-.established{
-    font-style: italic;
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
 }
-h1{
-    font-size: 40px;
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-h2{
-    font-size: 30px;
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
 }
-hr{
-    height: 3px;
-    background-color: brown;
-    border-color: brown;
-    height: 2px;
+
+.bottom-line {
+  margin-top: 25px;
 }
-.bottom-line{
-    margin-top: 25px;
+
+h1, h2 {
+  font-family: Impact, serif;
 }
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
 /* FOOTER */
-footer{
-    font-size: 14px;
+
+footer {
+  font-size: 14px;
 }
-a{
-    color: black;
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
 }
