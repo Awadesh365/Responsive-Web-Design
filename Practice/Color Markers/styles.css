@@ -12,7 +12,7 @@ h1 {
   height: 25px;
   margin: 10px auto;
 }
-
+ 
 .red {
   background:linear-gradient(rgb(122,74,14), rgb(245,62,113) ,rgb(162,27,27) );
   box-shadow:0px 0px 20px 0px rgba(83, 14, 14, 0.8);
