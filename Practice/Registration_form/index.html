@@ -15,10 +15,18 @@
             <label for="first-name">Enter Your First Name:<input id="first-name" type="text" required></label>
             <label for="last-name">Enter Your Last Name:<input id="last-name" type="text" required></label>
             <label for="email">Enter Your Email:<input id="email" type="email" required></label>
-            <label for="new-password">Create a New Password:<input id="new-password" type="password" required></label>
+            <label for="new-password">Create a New Password:<input id="new-password" type="password"
+                    pattern="[a-z0-5]{8,}" required></label>
         </fieldset>
-        <fieldset></fieldset>
-        <fieldset></fieldset>
+        <fieldset>
+            <label for="personal-account"><input id="personal-account" /></label>
+            <label for="business-account"><input id="business-account" /></label>
+            <label for="terms-and-conditions"><input id="terms-and-conditions" /><a
+                    href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+        </fieldset>
+        <fieldset>
+            <label><input type="file">Upload a profile picture:</label>
+        </fieldset>
         <input type="submit" value="Submit">
     </form>
 </body>
