@@ -1,4 +1,4 @@
-# Responsive-Web-Design
+# cHECKING
 
 A Collection Of 5 Projects Based On Responsive-Web Design
 (HTML,CSS)
